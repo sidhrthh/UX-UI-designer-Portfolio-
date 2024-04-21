@@ -3,6 +3,7 @@ import "../App.css";
 import logo from "../assets/logo.png";
 import Button from "./Button";
 import Background from "../assets/Background.png";
+import Background1 from "../assets/Background (1).png";
 
 export default function Navbar() {
   const navigate = useNavigate();
@@ -31,6 +32,10 @@ export default function Navbar() {
           <Button name={"Let's talk"} />
         </div>
       </div>
+     
+     <div className="absolute bottom-0 right-20">
+     <img src={Background1} alt="bg-icon image" />
+     </div>
     </div>
   );
 }
