@@ -9,6 +9,7 @@ export default function Navbar() {
   const navigate = useNavigate();
 
   return (
+    <>
     <div>
       <div className="flex justify-evenly items-center">
         <div className="absolute left-[35%]	">
@@ -24,7 +25,6 @@ export default function Navbar() {
             <li onClick={() => navigate("/about")}> About </li>
             <li onClick={() => navigate("/services")}> Services </li>
             <li onClick={() => navigate("/portfolio")}> Portfolio </li>
-            <li onClick={() => navigate("/blog")}> Blog </li>
           </ul>
         </div>
 
@@ -33,10 +33,11 @@ export default function Navbar() {
         </div>
       </div>
      
-     <div className="absolute bottom-0 right-20">
+    </div>
+     <div className=" absolute bottom-0 right-20">
      <img src={Background1} alt="bg-icon image" />
      </div>
-    </div>
+     </>
   );
 }
 

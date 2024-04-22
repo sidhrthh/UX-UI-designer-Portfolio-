@@ -8,7 +8,6 @@ const Home = lazy(() => import('./Pages/Home'));
 const About = lazy(() => import('./Pages/About'));
 const Services = lazy(() => import('./Pages/Services'));
 const Portfolio = lazy(() => import('./Pages/Portfolio'));
-const Blog = lazy(() => import('./Pages/Blog'));
 
 
 function App() {
@@ -22,7 +21,6 @@ function App() {
             <Route path="/about" element={<Suspense fallback="Loading..."><About /></Suspense>} />
             <Route path="/services" element={<Suspense fallback="Loading..."><Services /></Suspense>} />
             <Route path="/portfolio" element={<Suspense fallback="Loading..."><Portfolio /></Suspense>} />
-            <Route path="/blog" element={<Suspense fallback="Loading..."><Blog /></Suspense>} />
           </Routes>
         </BrowserRouter>
       </div>
