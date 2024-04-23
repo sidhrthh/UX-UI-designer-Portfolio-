@@ -11,7 +11,7 @@ export default function Portfolio({ img, name, text }) {
     <div>
       <h1 className="text-5xl font-semibold text-center pt-10 px-[16%]">
         {" "}
-        Protfolio
+        Portfolio
       </h1>
       <p className="mt-7 text-center px-[16%]">
         Explore my design services, from user interface and experience to
@@ -19,7 +19,7 @@ export default function Portfolio({ img, name, text }) {
         together.
       </p>
 
-      <div className="flex flex-row flex-wrap	gap-10 justify-evenly items-center mt-5	">
+      <div className="flex md:flex-row flex-col flex-wrap	gap-10 justify-evenly md:justify-center items-center mt-5	">
         <ProtfolioProject
           img={Image1}
           name={"Educational Platform"}
