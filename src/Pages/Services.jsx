@@ -14,7 +14,7 @@ export default function Services({img , heading , text}) {
         together.
       </p>
 
-      <div className="flex justify-between px-10 mt-10">
+      <div className="flex md:flex-row flex-col justify-center md:justify-between px-10 mt-10">
        <ServicesBox img={Vector} heading={"Design"} text={"I specialize in web development and design, creating visually appealing, user-friendly digital experiences."} />
        <ServicesBox img={Vector1} heading={"Branding"} text={"I'm a branding expert, crafting unique visual identities that tell your story and resonate with your audience."} />
        <ServicesBox img={Search} heading={"UX Research"} text={"I specialize in user experience research, collaborating on web development, and ensuring user-friendly digital products."} />

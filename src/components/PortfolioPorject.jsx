@@ -2,7 +2,7 @@ import Portfolio from "../Pages/Portfolio";
 
 export default function ProtfolioProject({ img, name, text }) {
   return (
-      <div className="border w-1/4 justify-between">
+      <div className="border md:w-1/4 justify-between">
         <div>
           <img src={img} alt="" />
         </div>
